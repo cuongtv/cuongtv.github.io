@@ -296,7 +296,7 @@ button.navbar-toggle.collapsed {
     height: auto;
     text-align: center;
     color: white;
-    background: url(../img/mm_header.jpg) no-repeat bottom center;
+    background: url(../img/ct_header.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -318,13 +318,21 @@ button.navbar-toggle.collapsed {
 
 .intro .intro-body .intro-text {
     font-size: 25px;
+    color: #FFEBCD;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
 
 span.city {
     background-color: #40E0D0;
-    color: #fff;
+    color: #FFEBCD;
+    border-radius: 4px;
+    width: 15px;
+}
+
+span.nation {
+    background-color: #F08080;
+    color: #FFEBCD;
     border-radius: 4px;
     width: 15px;
 }
@@ -528,7 +536,7 @@ div.button-social {
     margin-top: 25px;
     font-size: 18px;
     color: #fff;
-    margin: 5% 5%;
+    margin: 5% 5%;/
 }
 
 div.button-social a {
@@ -921,7 +929,7 @@ div.button-weblink {
 .testimionals-bg {
     width: 100%;
     height: auto;
-    background: url(../img/mm_testimionals.jpg) no-repeat top center scroll;
+    background: url(../img/ct_testimionals.jpg) no-repeat top center scroll;
     background-size: cover;
 }
 
