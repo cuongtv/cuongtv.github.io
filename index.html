@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,20 +20,18 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- heap analytics -->
     <script type="text/javascript">
-    window.heap = window.heap || [], heap.load = function(e, t) {
-        window.heap.appid = e, window.heap.config = t = t || {};
-        var r = t.forceSSL || "https:" === document.location.protocol,
-            a = document.createElement("script");
-        a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
-        var n = document.getElementsByTagName("script")[0];
-        n.parentNode.insertBefore(a, n);
-        for (var o = function(e) {
-                return function() {
-                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
-                }
-            }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = o(p[c])
-    };
-    heap.load("3800196545");
+        window.heap = window.heap || [], heap.load = function (e, t) {
+            window.heap.appid = e, window.heap.config = t = t || {}; 
+            var r = t.forceSSL || "https:" === document.location.protocol, 
+                a = document.createElement("script"); 
+            a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js"; 
+            var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n); 
+            for (var o = function (e) 
+                { return function () {
+                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) 
+                    } 
+                }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++)heap[p[c]] = o(p[c]) };
+        heap.load("3560025039");
     </script>
 </head>
 
@@ -85,7 +84,8 @@
                         </div>
                         <!-- end typer hello -->
                         <p class="intro-text">my name is Cuong Tran.
-                            <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">Automation Tester</span> <span class="fa fa-code" aria-hidden="true"></span>
+                            <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">Automation
+                                Tester</span> <span class="fa fa-code" aria-hidden="true"></span>
                             <br>based in the beautiful city of <span class="city">Ho Chi Minh</span>, <span class="nation">Vietnam</span>.</p>
                         <!-- start mouse wrap -->
                         <div class="mouse-warp">
@@ -119,24 +119,36 @@
                             <img src="img/ct_info.jpg" alt="Cuong Tran" class="img-responsive">
                             <div class="textbox-about hidden-xs">
                                 <div class="btn button-social">
-                                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span class="fa fa-codepen" aria-hidden="true"></span></a>
-                                    <a href="https://linkedin.com/in/mrcuongtv" alt="LinkedIn profile" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
-                                    <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span class="fa fa-github" aria-hidden="true"></span></a>
+                                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span
+                                            class="fa fa-codepen" aria-hidden="true"></span></a>
+                                    <a href="https://linkedin.com/in/mrcuongtv" alt="LinkedIn profile" target="_blank"><span
+                                            class="fa fa-linkedin" aria-hidden="true"></span></a>
+                                    <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span
+                                            class="fa fa-github" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 about-intro-text">
-                    <p>I'm an <span>automation tester</span> (fancy name to say that I develop scripts to execute auto testing on websites and applications).
-                        <br> My first experience with QC job was 2007, as a manual tester for an e-Commerce company (website: kiemviec.com, now is known as careerbuilder.vn). At that time, QC job (aka Testing Service) is a very new in IT career. 2 years after that, I start my first automation task in a healthcare project with <i>QTP</i> tool (Quick Test Pro, now known as <i>UFT</i> - Unified Functional Testing).
-                        <br> The time has gone, the experience has come, the youth has fled. I'm now 35 with over 12 years experience in testing, including upto 8 years in automation testing. My most favorite is develop automation with <i>Selenium</i> in Java.
+                    <p>I'm an <span>automation tester</span> (fancy name to say that I develop scripts to execute auto
+                        testing on websites and applications).
+                        <br> My first experience with QC job was 2007, as a manual tester for an e-Commerce company
+                        (website: kiemviec.com, now is known as careerbuilder.vn). At that time, QC job (aka Testing
+                        Service) is a very new in IT career. 2 years after that, I start my first automation task in a
+                        healthcare project with <i>QTP</i> tool (Quick Test Pro, now known as <i>UFT</i> - Unified
+                        Functional Testing).
+                        <br> The time has gone, the experience has come, the youth has fled. I'm now 35 with over 12
+                        years experience in testing, including upto 8 years in automation testing. My most favorite is
+                        develop automation with <i>Selenium</i> in Java.
                         <br> Analysis and Solving issue is one of strong in my skillset.
-                        <br> <i>What do you want to automate, Why you are going to automate, and What the results are?</i> The answers of those are my mindset before starting automate for a project.
+                        <br> <i>What do you want to automate, Why you are going to automate, and What the results are?</i>
+                        The answers of those are my mindset before starting automate for a project.
                         <br> Learning is Never Enough, especially with code! <span class="fa fa-beer" aria-hidden="true"></span></p>
                     <div class="button-group">
                         <div class="text">Download CV</div>
-                        <div class="icon-cv"><a href="assets/CV_CuongTranVan.docx" alt="Cuong Tran CV" target="_blank"><span class="fa fa-arrow-circle-down" aria-hidden="true"></span></a></div>
+                        <div class="icon-cv"><a href="assets/CV_CuongTranVan.docx" alt="Cuong Tran CV" target="_blank"><span
+                                    class="fa fa-arrow-circle-down" aria-hidden="true"></span></a></div>
                     </div>
                 </div>
             </div>
@@ -278,14 +290,16 @@
                             <img src="img/work-directv.png" alt="Portfolio - DIRECTV" class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://www.directv.com/" target="_blank" alt="Portfolio - DIRECTV"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://www.directv.com/" target="_blank" alt="Portfolio - DIRECTV"><span
+                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>DIRECTV</h3>
                             <p>DirecTV provide the best satellite television services throughout America.<br>
-                            We maintain services for over 20 different product families and validate qualification for all the releases to end users.</p>
+                                We maintain services for over 20 different product families and validate qualification
+                                for all the releases to end users.</p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">EMBEDED SYSTEM</li>
                                 <li class="portfolio-tag">TESTING</li>
@@ -299,17 +313,21 @@
                 <div class="col-sm-6 col-md-4 grid-portfolio">
                     <div class="portfolio-item-ct">
                         <div class="thumbnail">
-                            <img src="img/acom-solutions.png" alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES" class="img-responsive">
+                            <img src="img/acom-solutions.png" alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES"
+                                class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://acom.com" target="_blank" alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://acom.com" target="_blank" alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES"><span
+                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>ACOM SOLUTIONS</h3>
                             <p>ACOM is an Online Payment Services and Solutions Company.<br>
-                            As an oversea development team, we provide to ACOM a high quality software outsourcing services and specializes in research, development, quality assurance, and documentation.</p>
+                                As an oversea development team, we provide to ACOM a high quality software outsourcing
+                                services and specializes in research, development, quality assurance, and
+                                documentation.</p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">AUTOMATION TESTING</li>
                                 <li class="portfolio-tag">SELENIUM</li>
@@ -327,14 +345,17 @@
                             <img src="img/kiemviec-logo.png" alt="Portfolio - Kiemviec.com - CareerBuilder" class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://careerbuilder.vn" alt="Portfolio - Kiemviec.com - CareerBuilder" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://careerbuilder.vn" alt="Portfolio - Kiemviec.com - CareerBuilder"
+                                        target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>CareerBuilder</h3>
-                            <p>In CareerBuilder, we provide a good quality product of recruitment solutions to both of employee and employer.<br>
-                            Besides that, we also handle quality for more eCommerce products, such as: yume.vn, timnhanh.com, tinnhanh.com, ...
+                            <p>In CareerBuilder, we provide a good quality product of recruitment solutions to both of
+                                employee and employer.<br>
+                                Besides that, we also handle quality for more eCommerce products, such as: yume.vn,
+                                timnhanh.com, tinnhanh.com, ...
                             </p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">QUALITY CONTROL</li>
@@ -352,14 +373,15 @@
                             <img src="img/work-freelancer.png" alt="Portfolio - FREELANCER" class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://github.com/cuongtv" target="_blank" alt="Portfolio - FREELANCER"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://github.com/cuongtv" target="_blank" alt="Portfolio - FREELANCER"><span
+                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>FREELANCER</h3>
                             <p>Most of my freelance projects are develop personal website or graduation thesis app.<br>
-                            Sometime, I get Testing jobs for customer website/application.</p>
+                                Sometime, I get Testing jobs for customer website/application.</p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">TESTING</li>
                                 <li class="portfolio-tag">PHP</li>
@@ -377,13 +399,15 @@
                             <img src="img/work-personalWebsite.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://github.com/cuongtv/cuongtv.github.io" target="_blank" alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://github.com/cuongtv/cuongtv.github.io" target="_blank" alt="Portfolio - PERSONAL WEBSITE"><span
+                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>PERSONAL WEBSITE</h3>
-                            <p>Responsive personal/portfolio website. The source code is available at both <a href="https://codepen.io/cuongtv" target="_blank">Codepen</a> and <a href="https://github.com/cuongtv" target="_blank">Github</a>.</p>
+                            <p>Responsive personal/portfolio website. The source code is available at both <a href="https://codepen.io/cuongtv"
+                                    target="_blank">Codepen</a> and <a href="https://github.com/cuongtv" target="_blank">Github</a>.</p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">HTML5 / CSS3</li>
                                 <li class="portfolio-tag">BOOTSTRAP</li>
@@ -518,9 +542,12 @@
                 <p class="js-email" data-tooltip="Click to copy to clipboard!">You can contact me at: <span>mr.cuongtv@yahoo.com</span></p>
                 <br>
                 <div class="social">
-                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span class="fa fa-codepen" aria-hidden="true"></span></a>
-                    <a href="https://linkedin.com/in/mrcuongtv" target="_blank" alt="LinkedIn profile"><span class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span class="fa fa-github" aria-hidden="true"></span></a>
+                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span class="fa fa-codepen"
+                            aria-hidden="true"></span></a>
+                    <a href="https://linkedin.com/in/mrcuongtv" target="_blank" alt="LinkedIn profile"><span class="fa fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span class="fa fa-github"
+                            aria-hidden="true"></span></a>
                 </div>
                 <p id="copyright"></p>
             </div>
@@ -542,50 +569,50 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Preloader -->
     <script type="text/javascript">
-    jQuery.noConflict();
-    (function($) {
-        $(window).on('load', function() { // makes sure the whole site is loaded
-            $('#status').fadeOut(); // will first fade out the loading animation
-            $('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
-        });
-    })(jQuery);
+        jQuery.noConflict();
+        (function ($) {
+            $(window).on('load', function () { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            });
+        })(jQuery);
     </script>
     <!-- end Preloader -->
     <!-- hello typer start -->
     <script type="text/javascript">
-    window.onload = function() {
-        var elements = document.getElementsByClassName('txt-rotate');
-        for (var i = 0; i < elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-rotate');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-                new TxtRotate(elements[i], JSON.parse(toRotate), period);
+        window.onload = function () {
+            var elements = document.getElementsByClassName('txt-rotate');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-rotate');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                }
             }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #40E0D0 }";
-        document.body.appendChild(css);
-    };
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #40E0D0 }";
+            document.body.appendChild(css);
+        };
     </script>
     <!-- hello typer end -->
     <!-- google analytics start -->
     <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = 'https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-62476454-1', 'auto');
-    ga('send', 'pageview');
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-62476454-1', 'auto');
+        ga('send', 'pageview');
     </script>
     <!-- google analytics end  -->
 </body>
