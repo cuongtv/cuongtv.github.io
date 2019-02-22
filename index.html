@@ -21,30 +21,49 @@
     <!-- heap analytics -->
     <script type="text/javascript">
         window.heap = window.heap || [], heap.load = function (e, t) {
-            window.heap.appid = e, window.heap.config = t = t || {}; 
-            var r = t.forceSSL || "https:" === document.location.protocol, 
-                a = document.createElement("script"); 
-            a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js"; 
-            var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n); 
-            for (var o = function (e) 
-                { return function () {
-                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) 
-                    } 
-                }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++)heap[p[c]] = o(p[c]) };
+            window.heap.appid = e, window.heap.config = t = t || {};
+            var r = t.forceSSL || "https:" === document.location.protocol,
+                a = document.createElement("script");
+            a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+            var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n);
+            for (var o = function (e) {
+                return function () {
+                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                }
+            }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++)heap[p[c]] = o(p[c])
+        };
         heap.load("3560025039");
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135035793-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-135035793-1');
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WSVPF4D');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSVPF4D" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- START PRELOADER -->
     <div id="preloader">
         <div id="status">&nbsp;</div>
@@ -89,13 +108,16 @@
                     <div class="col-md-8 col-md-offset-2">
                         <!-- start typer hello  -->
                         <div class="brand-heading">
-                            <span class="txt-rotate" data-period="100" data-rotate='[ "Xin chào,","Hello,", "Olá,", "Hallo,", "Salut,", "Ciao,", "Hola,", "Hej," ]'></span>
+                            <span class="txt-rotate" data-period="100"
+                                data-rotate='[ "Xin chào,","Hello,", "Olá,", "Hallo,", "Salut,", "Ciao,", "Hola,", "Hej," ]'></span>
                         </div>
                         <!-- end typer hello -->
                         <p class="intro-text">my name is Cuong Tran.
-                            <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">Automation
+                            <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span
+                                class="intro-text-hgl">Automation
                                 Tester</span> <span class="fa fa-code" aria-hidden="true"></span>
-                            <br>based in the beautiful city of <span class="city">Ho Chi Minh</span>, <span class="nation">Vietnam</span>.</p>
+                            <br>based in the beautiful city of <span class="city">Ho Chi Minh</span>, <span
+                                class="nation">Vietnam</span>.</p>
                         <!-- start mouse wrap -->
                         <div class="mouse-warp">
                             <a href="#mouse-here" class="page-scroll">
@@ -130,8 +152,8 @@
                                 <div class="btn button-social">
                                     <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span
                                             class="fa fa-codepen" aria-hidden="true"></span></a>
-                                    <a href="https://linkedin.com/in/mrcuongtv" alt="LinkedIn profile" target="_blank"><span
-                                            class="fa fa-linkedin" aria-hidden="true"></span></a>
+                                    <a href="https://linkedin.com/in/mrcuongtv" alt="LinkedIn profile"
+                                        target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
                                     <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span
                                             class="fa fa-github" aria-hidden="true"></span></a>
                                 </div>
@@ -147,20 +169,23 @@
                         Service) is a very new in IT career. 2 years after that, I start my first automation task in a
                         healthcare project with <i>QTP</i> tool (Quick Test Pro, now known as <i>UFT</i> - Unified
                         Functional Testing).
-                        <br> The time has gone, the experience has come, the youth has fled. I'm now 
+                        <br> The time has gone, the experience has come, the youth has fled. I'm now
                         <script>
                             document.write(((new Date()).getFullYear()) - 1983);
                         </script> with over 12
                         years experience in testing, including upto 8 years in automation testing. My most favorite is
                         develop automation with <i>Selenium</i> in Java.
                         <br> Analysis and Solving issue is one of strong in my skillset.
-                        <br> <i>What do you want to automate, Why you are going to automate, and What the results are?</i>
+                        <br> <i>What do you want to automate, Why you are going to automate, and What the results
+                            are?</i>
                         The answers of those are my mindset before starting automate for a project.
-                        <br> Learning is Never Enough, especially with code! <span class="fa fa-beer" aria-hidden="true"></span></p>
+                        <br> Learning is Never Enough, especially with code! <span class="fa fa-beer"
+                            aria-hidden="true"></span></p>
                     <div class="button-group">
                         <div class="text">Download CV</div>
-                        <div class="icon-cv"><a href="assets/CV_CuongTranVan.docx" alt="Cuong Tran CV" target="_blank"><span
-                                    class="fa fa-arrow-circle-down" aria-hidden="true"></span></a></div>
+                        <div class="icon-cv"><a href="assets/CV_CuongTranVan.docx" alt="Cuong Tran CV"
+                                target="_blank"><span class="fa fa-arrow-circle-down" aria-hidden="true"></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -231,7 +256,8 @@
                             <time datetime="2014">2014</time>
                             <div class="timeline-experience">
                                 <span class="timeline-circle"></span>
-                                <div class="timeline-experience-img"><img src="img/GCS_logo.png" alt="BNP Paribas"></div>
+                                <div class="timeline-experience-img"><img src="img/GCS_logo.png" alt="BNP Paribas">
+                                </div>
                                 <div class="timeline-experience-info clear-after">
                                     <h5>Global Cybersoft</h5>
                                     <div class="timeline-role">QC - RnD</div>
@@ -243,7 +269,8 @@
                             <time datetime="2010">2010</time>
                             <div class="timeline-experience">
                                 <span class="timeline-circle"></span>
-                                <div class="timeline-experience-img"><img src="img/quantic_logo.png" alt="BNP Paribas"></div>
+                                <div class="timeline-experience-img"><img src="img/quantic_logo.png" alt="BNP Paribas">
+                                </div>
                                 <div class="timeline-experience-info clear-after">
                                     <h5>Quantic Ltd</h5>
                                     <div class="timeline-role">Automation QC</div>
@@ -258,7 +285,8 @@
                             <time datetime="2009">2009</time>
                             <div class="timeline-experience">
                                 <span class="timeline-circle"></span>
-                                <div class="timeline-experience-img"><img src="img/von_logo.png" alt="Páginas Amarelas"></div>
+                                <div class="timeline-experience-img"><img src="img/von_logo.png" alt="Páginas Amarelas">
+                                </div>
                                 <div class="timeline-experience-info clear-after">
                                     <h5>Vietnam Online Network (CareerBuilder)</h5>
                                     <div class="timeline-role">Manual QC</div>
@@ -270,7 +298,8 @@
                             <time datetime="2006">2006</time>
                             <div class="timeline-experience">
                                 <span class="timeline-circle"></span>
-                                <div class="timeline-experience-img"><img src="img/freelancer_logo.png" alt="Páginas Amarelas"></div>
+                                <div class="timeline-experience-img"><img src="img/freelancer_logo.png"
+                                        alt="Páginas Amarelas"></div>
                                 <div class="timeline-experience-info clear-after">
                                     <h5>Freelancer</h5>
                                     <div class="timeline-role">Web Developer</div>
@@ -329,7 +358,8 @@
                                 class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://acom.com" target="_blank" alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES"><span
+                                    <a href="https://acom.com" target="_blank"
+                                        alt="Portfolio - ACOM SOLUTIONS - ONLINE PAYMENT SERVICES"><span
                                             class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
                                 </div>
                             </div>
@@ -354,11 +384,13 @@
                 <div class="col-sm-6 col-md-4 grid-portfolio">
                     <div class="portfolio-item-ct">
                         <div class="thumbnail">
-                            <img src="img/kiemviec-logo.png" alt="Portfolio - Kiemviec.com - CareerBuilder" class="img-responsive">
+                            <img src="img/kiemviec-logo.png" alt="Portfolio - Kiemviec.com - CareerBuilder"
+                                class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
                                     <a href="https://careerbuilder.vn" alt="Portfolio - Kiemviec.com - CareerBuilder"
-                                        target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                        target="_blank"><span class="fa fa-link portfolio-link"
+                                            aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -385,8 +417,9 @@
                             <img src="img/work-freelancer.png" alt="Portfolio - FREELANCER" class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://github.com/cuongtv" target="_blank" alt="Portfolio - FREELANCER"><span
-                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://github.com/cuongtv" target="_blank"
+                                        alt="Portfolio - FREELANCER"><span class="fa fa-link portfolio-link"
+                                            aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -408,18 +441,21 @@
                 <div class="col-sm-6 col-md-4 grid-portfolio">
                     <div class="portfolio-item-ct">
                         <div class="thumbnail">
-                            <img src="img/work-personalWebsite.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
+                            <img src="img/work-personalWebsite.png" alt="Portfolio - PERSONAL WEBSITE"
+                                class="img-responsive">
                             <div class="textbox-portfolio">
                                 <div class="button-weblink">
-                                    <a href="https://github.com/cuongtv/cuongtv.github.io" target="_blank" alt="Portfolio - PERSONAL WEBSITE"><span
-                                            class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                                    <a href="https://github.com/cuongtv/cuongtv.github.io" target="_blank"
+                                        alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link"
+                                            aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="caption portfolio-details">
                             <h3>PERSONAL WEBSITE</h3>
-                            <p>Responsive personal/portfolio website. The source code is available at both <a href="https://codepen.io/cuongtv"
-                                    target="_blank">Codepen</a> and <a href="https://github.com/cuongtv" target="_blank">Github</a>.</p>
+                            <p>Responsive personal/portfolio website. The source code is available at both <a
+                                    href="https://codepen.io/cuongtv" target="_blank">Codepen</a> and <a
+                                    href="https://github.com/cuongtv" target="_blank">Github</a>.</p>
                             <ul class="portfolio-tags">
                                 <li class="portfolio-tag">HTML5 / CSS3</li>
                                 <li class="portfolio-tag">BOOTSTRAP</li>
@@ -462,7 +498,8 @@
                             <!-- <i class="fa fa-search fa-wrapper" aria-hidden="true"></i>-->
                         </div>
                         <h3>Search Engine Optimization</h3>
-                        <p>Increase your visibility across all major search engines & local search with SEO techniques.</p>
+                        <p>Increase your visibility across all major search engines & local search with SEO techniques.
+                        </p>
                     </div>
                 </div>
                 <!-- end row of services -->
@@ -494,7 +531,8 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3">
                                     <div class="carousel-caption">
-                                        <p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
+                                        <p>Life is like riding a bicycle. To keep your balance, you must keep moving.
+                                        </p>
                                         <p class="client">― Albert Einstein</p>
                                     </div>
                                 </div>
@@ -551,13 +589,14 @@
         <div class="container">
             <div class="row">
                 <h2>CONTACT</h2>
-                <p class="js-email" data-tooltip="Click to copy to clipboard!">You can contact me at: <span>mr.cuongtv@yahoo.com</span></p>
+                <p class="js-email" data-tooltip="Click to copy to clipboard!">You can contact me at:
+                    <span>mr.cuongtv@yahoo.com</span></p>
                 <br>
                 <div class="social">
-                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span class="fa fa-codepen"
-                            aria-hidden="true"></span></a>
-                    <a href="https://linkedin.com/in/mrcuongtv" target="_blank" alt="LinkedIn profile"><span class="fa fa-linkedin"
-                            aria-hidden="true"></i></a>
+                    <a href="https://codepen.io/cuongtv/" target="_blank" alt="CodePen profile"><span
+                            class="fa fa-codepen" aria-hidden="true"></span></a>
+                    <a href="https://linkedin.com/in/mrcuongtv" target="_blank" alt="LinkedIn profile"><span
+                            class="fa fa-linkedin" aria-hidden="true"></i></a>
                     <a href="https://github.com/cuongtv" target="_blank" alt="GitHub profile"><span class="fa fa-github"
                             aria-hidden="true"></span></a>
                 </div>
@@ -611,21 +650,21 @@
     <!-- hello typer end -->
     <!-- google analytics start -->
     <script>
-            (function (b, o, i, l, e, r) {
-                b.GoogleAnalyticsObject = l;
-                b[l] || (b[l] =
-                    function () {
-                        (b[l].q = b[l].q || []).push(arguments)
-                    });
-                b[l].l = +new Date;
-                e = o.createElement(i);
-                r = o.getElementsByTagName(i)[0];
-                e.src = 'https://www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e, r)
-            }(window, document, 'script', 'ga'));
-            ga('create', 'UA-135035793-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-135035793-1', 'auto');
+        ga('send', 'pageview');
+    </script>
     <!-- google analytics end  -->
 </body>
 
